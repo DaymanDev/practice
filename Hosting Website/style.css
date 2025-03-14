@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    font-family:sans-serif
+}
+.first {
+    background-color: #111010;
+    
+}
+
+.nav-bar{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0px;
+    
+}
+.list{
+    color: rgb(176, 176, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: large;
+    text-decoration: underline;
+    list-style: none;
+}
+
+ul li a {
+    color:rgb(176, 176, 176);
+}
+ul li a:hover{
+    color: #0c8bfd;
+}
+
+
+
+
+
+.login-button{
+    background-color: #0c8bfd;
+    border: 0px;
+    height: 45px;
+    width: 110px;
+    border-radius: 18px;
+    font-size: large;
+    color: white;
+}
+.login-button:hover{
+    background-color: black;
+    border: 2px solid white;
+    cursor:pointer;
+
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 70px 0px 0px 0px;
+    height: 850px;
+    
+}
+.leftside h1 {
+    color: white;
+    font-size: 80px;
+    width: 700px;
+    padding-bottom: 40px;
+}
+.leftside p{
+    color: rgb(176, 176, 176);
+    font-size: 22px;
+    width: 600px;
+    line-height:27px;
+    padding-bottom: 99px;
+}
+
+.rightside img {
+    height: 700px;
+    
+}
+
+
+.main-button{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    align-items: center;
+}
+
+.getst-button{
+    background-color: #0c8bfd;
+    color: white;
+    height: 60px;
+    width: 176px;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.tryst-button{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 176px;
+    border: 0px;
+    border-radius: 30px;
+    border: 2px solid white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.getst-button:hover{
+
+    background-color: black;
+    border: 2px solid white;
+}
+.tryst-button:hover{
+    background-color: #0c8bfd;
+    color: white;
+   border: 0px;
+}
+.logo-bar{
+    background-color: #1d1c1c;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.service-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding: 90px 0px;
+}
+.service-ben{
+    display: flex;
+}
+
+.service-ben1{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 350px;
+    width: 315px;
+    text-align: center;
+}
+.service-ben2{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 350px;
+    width: 315px;
+    text-align: center;
+}
+.service-ben3{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 350px;
+    width: 315px;
+    text-align: center;
+}
