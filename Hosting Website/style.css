@@ -132,30 +132,84 @@ ul li a:hover{
     flex-direction: column;
     align-items: center;
     gap: 70px;
-    padding: 90px 0px;
+    padding: 120px 0px;
+    
 }
 .service-ben{
     display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
 }
-
+.service-ben1 p{
+    font-size: 21px;
+    height: 60px;
+    width: 300px;
+    text-align:center ;
+    color: gray;
+    margin: 30px auto;
+    
+}
+.service-ben2 p{
+    font-size: 21px;
+    height: 60px;
+    width: 330px;
+    text-align:center ;
+    color: gray;
+    margin: 30px auto;
+    
+}
+.service-ben3 p{
+    font-size: 21px;
+    height: 60px;
+    width: 330px;
+    text-align:center ;
+    color: gray;
+    margin: 30px auto;
+    
+}
 .service-ben1{
-    border: 2px solid black;
-    border-radius: 20px;
+    border: 3px solid black;
+    border-radius: 35px;
     height: 350px;
-    width: 315px;
+    width: 400px;
     text-align: center;
+    padding-top: 50px;
+    box-shadow: 200px black;
 }
 .service-ben2{
-    border: 2px solid black;
-    border-radius: 20px;
+    border: 3px solid black;
+    border-radius: 35px;
     height: 350px;
-    width: 315px;
+    width: 400px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: black;
+    position: relative;
+    bottom: 50px;
+}
+.service-ben h3{
+    font-size: 33px;
+}
+
+.service-ben3{
+    border: 3px solid black;
+    border-radius: 35px;
+    height: 350px;
+    width: 400px;
+    padding-top: 50px;
     text-align: center;
 }
-.service-ben3{
-    border: 2px solid black;
-    border-radius: 20px;
-    height: 350px;
-    width: 315px;
+
+.service-info h1 {
+    font-size: 65px;
     text-align: center;
+    letter-spacing: -1px;
+}
+.service-info > p{
+    width: 600px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 21px;
+    color: gray ;
 }
