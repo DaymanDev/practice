@@ -214,16 +214,30 @@ ul li a:hover{
     color: gray ;
 }
 .price-section {
-    background-color:grey;
+    background-color:black;
+    position: relative;
+    padding: 50px;
 }
 .inlineh3 {
-margin: 0px auto;
+margin: 90px auto;
 color: white;
-font-size: 80px;
-width:1200px;
+font-size: 65px;
+width:1000px;
 text-align: center;
-
 }
+
+.left-arrow{
+
+    position: absolute;
+    top: 100px;
+    right: 300px;
+}
+.right-arrow{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
 .price-table{
     display: flex;
     justify-content: center;
@@ -232,37 +246,119 @@ text-align: center;
 }
 .regular,.premium{
     width: 400px;
-    height: 800px;
+    height: 750px;
     background-color: white;
     border-radius: 30px;
     padding: 10px 5px;
 }
-.regular ,   h4{
+.standard{
+    width: 400px;
+    height: 750px;
+    background-color:#0c8bfd;
+    border-radius: 30px;
+    padding: 10px 5px;
+    color: white;
+}
+.regular h4,.standard h4,.premium h4{
     padding:20px 25px;
-    font-size: 45px;
+    font-size: 40px;
+    font-weight: 700;
 }
-.regular ,   .price{
-    font-size: 90px;
+.price{
+    font-size: 70px;
     padding: 10px 25px;
+    font-weight: 550;
 }
-.regular , .descrip{
+.descrip{
     padding: 10px 25px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
+}
+.regular ul li,.standard ul li,.premium ul li{
+    line-height: 50px;
+    font-size: 23px;
+    list-style-image: url(./image/blue-tick.svg);
 }
 .price-button { 
     margin:10px 25px;
     height: 60px;
-    width: 430px;
+    width: 360px;
     background-color: #0c8bfd;
     color: white;
     font-size: 20px;
     font-weight: 600;
     border-radius: 30px;
+    border: none;
+    
 }
 .price-button:hover{
     border: #0c8bfd 2px solid;
     background-color: white;
     color: #0c8bfd;
     cursor: pointer;
+}
+.standard .price-button {
+    border: 2px white solid;
+    background-color: white;
+    color: #0c8bfd;
+}
+.standard .price-button:hover{
+    border: white 2px solid;
+    background-color:#0c8bfd;
+    color: white;
+    cursor: pointer;
+}
+.footer{
+    background-color: black;
+    
+}
+.footer h3 {
+    font-size:70px;
+    
+    text-align: center;
+    margin: 10px auto;
+    padding: 100px 0px;
+    color: white;
+}
+.footer form {
+    background-color: #292828;
+    margin:0px auto;
+    
+    height:150px;
+    width:70%;
+    border-radius:30px;
+}
+.footer form input{
+    background-color:#3e3d3d;
+    height:70px;
+    width:300px;
+    border-radius:30px;
+    border:none;
+    margin: 40px 20px;
+}
+.footer form button{
+    background-color: #0c8bfd;
+    color: white;
+    height: 60px;
+    width: 176px;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.footer form input::placeholder{
+    color: gray; 
+    font-size:20px; 
+    padding: 0px 20px;
+    opacity: 0.8; 
+}
+.footer-info{
+    margin: 10px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
